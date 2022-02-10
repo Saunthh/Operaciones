@@ -78,5 +78,15 @@ public class OperacionesTest {
         // TODO review the generated test code and remove the default call to fail.
         //fail("The test case is a prototype.");
     }
-    
+    /**
+     * Test de timeout
+     */
+    @Test(timeout=1000)
+    public void multiplicatimeout() {
+        System.out.println("Multiplica");
+        int a = 35000;
+        int b = 35000;
+        int result = Operaciones.factorial(a);
+        
+    }
 }
